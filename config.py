@@ -1,9 +1,9 @@
 import torch
 class Config:
     # Data paths
-    data_dir = 'data/datasets/cifar10/'
-    train_data_dir = data_dir + 'train/datasets/cifar10/'
-    test_data_dir = data_dir + 'test/datasets/cifar10/'
+    data_dir = 'data/datasets/cifar10/data'
+    train_data_dir = data_dir + 'train/datasets/cifar10/data'
+    test_data_dir = data_dir + 'test/datasets/cifar10/data'
 
     log_interval = 1
     # Model hyperparameters
